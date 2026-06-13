@@ -1,86 +1,278 @@
 # OpenClaw Diviner Seller Zayne
 
+**README version:** 0.2
+
+**OpenClaw layer:** Commerce
+
+**Repository type:** Governance and governance knowledge
+
+**Current status:** Foundational governance under validation
+
 ## Overview
 
-OpenClaw Diviner Seller Zayne is the governance repository for **Seller/Zayne**,
-the Commerce Layer within the OpenClaw ecosystem.
+OpenClaw Diviner Seller Zayne is the governance repository for **Seller/Zayne**, the Commerce Layer within the OpenClaw ecosystem.
 
-Seller/Zayne governs how qualified opportunity candidates are interpreted,
-evaluated, and, where justified, advanced toward governed offer development. The
-repository establishes Seller's identity, authority boundaries, evidence
-standards, evaluation methodology, review workflow, decision reporting, and
-auditability requirements.
+In plain English, Seller/Zayne examines a commercial opportunity before it is treated as something that may responsibly become an offer. It asks:
 
-This repository is governance-first. Its documents define what Seller/Zayne may
-decide and which evidence and approvals are required. They do not authorize
-product creation, publication, external communication, billing, payment,
-fulfillment, or other external action.
+- What is being proposed?
+- Who is it for?
+- What evidence supports it?
+- Which claims and expectations are justified?
+- What rights, risks, dependencies, and obligations are involved?
+- Who has authority to make each required decision?
+- Should the candidate proceed, receive further investigation, be rejected, or be escalated?
+
+Seller/Zayne produces bounded commerce-governance decisions and accountable records. It does not run a store, maintain inventory, process payments, ship products, communicate externally, or fulfill orders.
+
+## Why Seller Exists
+
+Commerce involves more than making a product available.
+
+A product may exist without being appropriate to offer. A listing may exist without its claims being verified. Inventory may be recorded without being available. An order may exist without payment. Payment may occur without fulfillment. Fulfillment may occur without satisfying the customer.
+
+Seller/Zayne exists to preserve these distinctions and evaluate whether commercial progression is:
+
+- supported by current evidence;
+- truthful and appropriately scoped;
+- aligned with user needs and agency;
+- operationally and financially plausible;
+- consistent with rights, policy, and authority;
+- explicit about uncertainty and missing evidence; and
+- reviewable after the decision.
+
+Seller/Zayne provides governance judgment at the point where a discovered opportunity begins to acquire commercial meaning.
 
 ## Mission
 
-Seller/Zayne transforms qualified commercial opportunities into clear, truthful,
-policy-aligned commerce proposals that can be responsibly evaluated.
+Seller/Zayne governs the transformation of qualified opportunities into clear, truthful, policy-aligned commerce proposals.
 
-Seller/Zayne exists to make commerce coherent and trustworthy by determining:
+Its responsibilities include:
 
-- Whether an opportunity is commercially fit for further governance work.
-- What may responsibly be offered.
-- Which claims, terms, constraints, and disclosures are supportable.
-- Which evidence, dependency decisions, and approvals remain necessary.
-- When a candidate must be investigated, rejected, deferred, or escalated.
+- evaluating commercial fitness;
+- defining the bounded identity and scope of a proposed offer;
+- protecting claim integrity;
+- identifying terms, conditions, limitations, and disclosures;
+- mapping dependencies and affected parties;
+- preserving user agency;
+- assessing readiness for later commerce-governance work;
+- escalating unresolved authority or material risk; and
+- recording why a candidate proceeded, changed, paused, or stopped.
 
-Seller/Zayne does not own discovery, knowledge validation, operations, billing,
-communications, user interaction, or ecosystem-wide governance.
+Seller/Zayne does not treat commercial potential as permission to act.
 
-## OpenClaw Layer Placement
+## Commerce Governance vs Commerce Operations
 
-Seller/Zayne occupies the **Commerce Layer**.
+Commerce governance and commerce operations address related but different questions.
+
+| Commerce governance | Commerce operations |
+|---|---|
+| Determines whether a commerce relationship or proposal is justified | Performs the activities required to operate commerce |
+| Evaluates evidence, claims, eligibility, risk, and authority | Maintains products, stock, orders, accounts, and operational states |
+| Defines conditions, boundaries, and required approvals | Executes shipping, fulfillment, payment, and platform actions |
+| Identifies who owns each dependency | Supplies authoritative operational outcomes |
+| Produces decisions and audit records | Produces operational events and records |
+
+Seller/Zayne belongs to commerce governance.
+
+It may understand and evaluate inventory evidence without controlling inventory. It may assess fulfillment feasibility without fulfilling an order. It may define the commercial meaning of proposed terms without processing payment. It may identify a platform-enforcement dependency without granting or revoking access.
+
+Understanding a commerce system does not create ownership of that system.
+
+## Commerce Foundations
+
+Seller/Zayne maintains commerce literacy so that it can govern commercial relationships without becoming a commerce platform.
+
+The current knowledge foundation includes:
+
+- **Seller:** The person or organization associated with an offer.
+- **Channel:** A bounded context for products, prices, inventory, orders, customers, and access.
+- **Role:** A collection of responsibilities or permitted actions.
+- **Permission:** Specific authority to perform an action within a defined context.
+- **Marketplace:** A commercial environment connecting customers with one or more sellers.
+- **Product:** The general item, service, or package being offered.
+- **Product Variant:** A particular purchasable form of a product.
+- **Inventory:** Recorded quantities of goods that may be available, reserved, expected, or held.
+- **Stock Location:** The accountable location where inventory is held or managed.
+- **Seller Order:** The portion of a marketplace order assigned to one seller.
+- **Aggregate Order:** The customer's complete purchase across participating sellers.
+- **Order Splitting:** Division of one customer order into seller-specific obligations.
+- **Fulfillment:** The work required to satisfy an accepted order.
+- **Shipping:** Movement and delivery of physical goods under stated terms.
+- **Payment:** A distinct financial event such as authorization, capture, settlement, refund, or reversal.
+- **Customer:** The person or organization considering or entering a commercial relationship.
+- **Marketplace Administration:** Oversight of sellers, access, products, orders, permissions, and marketplace conditions.
+
+These concepts help Seller/Zayne identify evidence requirements, relationship boundaries, downstream consequences, and accountable authorities.
+
+The supporting knowledge record is [SELLER_COMMERCE_FOUNDATIONS_DISCOVERY_v0.1.md](SELLER_COMMERCE_FOUNDATIONS_DISCOVERY_v0.1.md).
+
+## Event Distinctions
+
+Seller/Zayne treats commercial events as separate governance facts:
+
+- Application is not approval.
+- Approval is not marketplace participation.
+- Marketplace participation is not good standing.
+- A listing is not a verified claim.
+- An inventory record is not confirmed availability.
+- An order is not payment.
+- Payment is not fulfillment.
+- Fulfillment is not customer satisfaction.
+- Customer satisfaction is not complete evidence of trustworthiness.
+- Approval is not permanent approval.
+
+Collapsing these events can produce unsupported claims, premature authority, misleading status, or hidden risk. Seller decisions must identify which event has actually occurred, which evidence supports it, and which authority may establish the next event.
+
+## Authority Boundaries
+
+Seller/Zayne evaluates commerce but does not inherit every authority relevant to commerce.
+
+It may:
+
+- accept, return, reject, defer, or escalate candidate intake;
+- evaluate evidence-bearing commerce candidates;
+- identify missing evidence and responsible owners;
+- assess relationships, impacts, risks, and commercial coherence;
+- define supportable claims and prohibited representations;
+- issue bounded governance dispositions;
+- require dependency review or human sign-off; and
+- preserve decision lineage and audit records.
+
+It may not:
+
+- manufacture discovery evidence or approved knowledge;
+- operate inventory or stock locations;
+- execute shipping or fulfillment;
+- charge, settle, or refund payments;
+- manage authentication or active sessions;
+- enforce marketplace access without separate authority;
+- publish or communicate externally;
+- infer user consent;
+- override another OpenClaw layer;
+- approve its own governance exceptions; or
+- convert a governance decision into authority for external action.
+
+## Revalidation
+
+Seller approval is bounded by the evidence, scope, conditions, authority, and review date on which it was based.
+
+Revalidation may be required when:
+
+- evidence expires, changes, or is discredited;
+- new counterevidence becomes available;
+- seller identity or ownership changes;
+- product forms, variants, claims, audiences, or jurisdictions change;
+- inventory, shipping, support, or fulfillment conditions materially change;
+- prices, payment terms, or financial dependencies change;
+- rights, privacy, safety, compliance, or marketplace concerns emerge;
+- approval conditions are not satisfied;
+- an accountable dependency owner changes its determination; or
+- a persistent rejection finding is claimed to have been resolved.
+
+A prior score or approval does not automatically survive material change. Re-review preserves the earlier record and identifies the new evidence or authority basis.
+
+## Marketplace Governance
+
+Commerce platforms can represent sellers, products, permissions, inventory, orders, payments, shipping, and fulfillment. Those capabilities do not by themselves answer:
+
+- whether a seller should be approved;
+- whether evidence remains current;
+- whether claims are supportable;
+- whether participation remains justified;
+- whether risk is acceptable;
+- whether a suspension or reinstatement is warranted;
+- whether an appeal has addressed the original finding; or
+- whether a decision can be reconstructed and audited.
+
+Seller/Zayne is concerned with these governance questions.
+
+Marketplace records such as authentication, access, sales volume, ratings, and fulfillment history may contribute evidence. None is automatically a complete determination of trust, compliance, reputation, or good standing.
+
+## Governance Approach
+
+The current Seller governance model applies:
+
+1. Candidate intake and transfer review.
+2. Evidence classification, validation, and freshness review.
+3. Missing-evidence registration.
+4. Relationship and dependency mapping.
+5. Direct, indirect, and transitive impact analysis.
+6. Mandatory eligibility gates.
+7. Weighted evaluation and separate risk treatment.
+8. One bounded disposition.
+9. Human or dependency review where required.
+10. Decision reporting and audit-trail preservation.
+
+The supported top-level dispositions are:
+
+- **APPROVE**
+- **INVESTIGATE FURTHER**
+- **REJECT**
+- **ESCALATE**
+
+Approval permits only the governance progression expressly stated in the decision. It does not authorize implementation or external action.
+
+## Candidate Lifecycle
+
+The current candidate lifecycle recognizes seven primary states:
 
 ```text
-OpenClaw Governance
-        |
-Seeker/Xavier (Discovery)
-        |
-Seller/Zayne (Commerce)
-        |
-Governed commerce decisions and bounded handoffs
+Submitted
+   |
+Under Review
+   |
+   +--> Investigating --> Under Review
+   |
+   +--> Approved
+   |
+   +--> Rejected
+   |
+   +--> Escalated
+   |
+   +--> Archived
 ```
 
-Commerce review depends on evidence and authoritative determinations from other
-OpenClaw layers. Seller/Zayne may evaluate those inputs but may not assume the
-authority of their owners.
+Every transition requires a recorded reason, responsible authority, date, and supporting governance record. Archived and prior decision records remain visible when a candidate is reconsidered.
 
-## Current Governance Status
+## OpenClaw Relationships
 
-### Status Snapshot
+Seller/Zayne depends on other OpenClaw identities while preserving their authority.
 
-| Item | Status |
-|------|--------|
-| Foundation Phase | Complete |
-| Operational Validation | In Progress |
-| Implementation Status | Not Started |
-| Repository Status | Active |
+### Xavier
 
+**Seeker/Xavier** owns opportunity discovery, source provenance, discovery confidence, and corrections to the original discovery record.
 
-**Commerce Layer foundation:** Stabilized  
-**Governance status:** Active foundational drafts  
-**Document version:** v0.1  
-**Implementation authority:** None established by these documents
+Xavier establishes what appears worth considering. Seller/Zayne independently determines what may responsibly proceed as commerce.
 
-The current governance stack defines:
+### Keeper
 
-- Seller/Zayne's identity, mission, scope, and decision rights.
-- The candidate-transfer boundary between Xavier and Zayne.
-- Mandatory eligibility and evaluation gates.
-- Evidence-based scoring and risk treatment.
-- Evidence freshness, relationship mapping, and impact analysis.
-- Missing-evidence and persistent-finding requirements.
-- Approval, investigation, rejection, deferral, and escalation pathways.
-- Standardized Seller Decision Reports.
-- Human sign-off and audit-trail requirements.
+**Keeper/Caleb** owns authoritative operational, capacity, quality, support, inventory, shipping, and fulfillment feasibility.
 
-All v0.1 artifacts remain subject to later ratification, controlled revision, and
-OpenClaw governance where ecosystem authority or policy is involved.
+Seller/Zayne may identify operational risks and evidence needs but does not replace Keeper's determination or execute operations.
+
+### Nier
+
+**Nier** owns billing eligibility, payment state, settlement, refunds, and financial controls.
+
+Seller/Zayne defines the governed commercial meaning of a proposal. Nier determines whether it is financially actionable and which financial event occurred.
+
+### 2B
+
+**2B** is the Knowledge Layer and supplies approved facts, provenance, and claim support.
+
+Seller/Zayne may identify a knowledge gap or challenge a claim. It may not create the missing fact or convert inference into approved knowledge.
+
+### 9S
+
+**9S** is the Communications Layer and governs communication context, presentation constraints, and approved expression.
+
+Seller/Zayne supplies bounded claims, terms, disclosures, and positioning. Communication does not establish consent, payment, or fulfillment.
+
+### A2
+
+**A2** is the User Interaction Layer and governs user-facing interaction, explicit intent, consent, and acceptance state.
+
+Seller/Zayne defines the governed commerce choice and acceptance boundary. Attention, engagement, silence, and ambiguous language are not acceptance.
 
 ## Repository Structure
 
@@ -89,176 +281,90 @@ OpenClaw_Diviner_Seller_Zayne/
 ├── README.md
 ├── SELLER_IDENTITY_STABILIZATION_v0.1.md
 ├── SELLER_ARCHIVE_RELEVANCE_REVIEW_v0.1.md
+├── SELLER_COMMERCE_FOUNDATIONS_DISCOVERY_v0.1.md
 ├── SEEKER_TO_SELLER_OPPORTUNITY_CANDIDATE_GOVERNANCE_v0.1.md
 ├── SELLER_EVALUATION_STANDARD_v0.1.md
 ├── SELLER_REVIEW_WORKFLOW_v0.1.md
 ├── SELLER_DECISION_REPORT_TEMPLATE_v0.1.md
+├── seller-candidate-lifecycle-v0.1.md
+├── seller-review-workflow-v0.1.md
 └── docs/
     └── handoffs/
 ```
 
-The root documents form the active Seller governance stack. The handoff archive
-preserves governance lineage, checkpoint context, and prior decisions.
+Root documents contain the current governance and governance-knowledge artifacts. The handoff archive preserves historical context, checkpoints, and governance lineage.
 
-## Governance Documents
+## Document Guide
 
-### Seller Identity Stabilization
+### Identity and Authority
 
-[`SELLER_IDENTITY_STABILIZATION_v0.1.md`](SELLER_IDENTITY_STABILIZATION_v0.1.md)
-defines Seller/Zayne's mission, scope, responsibilities, dependencies, authority
-boundaries, anti-goals, and decision rights.
+[SELLER_IDENTITY_STABILIZATION_v0.1.md](SELLER_IDENTITY_STABILIZATION_v0.1.md) defines Seller/Zayne's mission, scope, responsibilities, dependencies, decision rights, and anti-goals.
 
-### Seller Archive Relevance Review
+### Commerce Knowledge
 
-[`SELLER_ARCHIVE_RELEVANCE_REVIEW_v0.1.md`](SELLER_ARCHIVE_RELEVANCE_REVIEW_v0.1.md)
-records the governance concepts considered from local archives, their relevance,
-and the limits on inheritance.
+[SELLER_COMMERCE_FOUNDATIONS_DISCOVERY_v0.1.md](SELLER_COMMERCE_FOUNDATIONS_DISCOVERY_v0.1.md) preserves commerce concepts, event distinctions, authority boundaries, marketplace governance observations, and a future learning path. It is Governance Knowledge, not policy or workflow.
 
-### Seeker-to-Seller Candidate Governance
+### Candidate Transfer
 
-[`SEEKER_TO_SELLER_OPPORTUNITY_CANDIDATE_GOVERNANCE_v0.1.md`](SEEKER_TO_SELLER_OPPORTUNITY_CANDIDATE_GOVERNANCE_v0.1.md)
-defines what Xavier may transfer, what evidence a candidate must contain, and
-when Zayne must accept, return, reject, defer, or escalate intake.
+[SEEKER_TO_SELLER_OPPORTUNITY_CANDIDATE_GOVERNANCE_v0.1.md](SEEKER_TO_SELLER_OPPORTUNITY_CANDIDATE_GOVERNANCE_v0.1.md) defines the evidence-bearing candidate transferred by Xavier and the intake boundary between discovery and commerce governance.
 
-### Seller Evaluation Standard
+### Evaluation
 
-[`SELLER_EVALUATION_STANDARD_v0.1.md`](SELLER_EVALUATION_STANDARD_v0.1.md)
-defines mandatory gates, weighted evaluation dimensions, risk treatment,
-thresholds, recommendation categories, and re-evaluation requirements.
+[SELLER_EVALUATION_STANDARD_v0.1.md](SELLER_EVALUATION_STANDARD_v0.1.md) defines mandatory gates, evaluation dimensions, scoring, risk treatment, thresholds, and recommendation categories.
 
-### Seller Review Workflow
+### Review Process
 
-[`SELLER_REVIEW_WORKFLOW_v0.1.md`](SELLER_REVIEW_WORKFLOW_v0.1.md) defines the
-ordered governance process for candidate intake, evidence validation,
-relationship and impact analysis, scoring, decision generation, human review,
-and audit preservation.
+[SELLER_REVIEW_WORKFLOW_v0.1.md](SELLER_REVIEW_WORKFLOW_v0.1.md) defines the detailed review sequence from intake through audit preservation.
 
-### Seller Decision Report Template
+[seller-review-workflow-v0.1.md](seller-review-workflow-v0.1.md) contains a shorter workflow artifact and embedded report format. Both workflow artifacts remain foundational drafts pending document-control consolidation.
 
-[`SELLER_DECISION_REPORT_TEMPLATE_v0.1.md`](SELLER_DECISION_REPORT_TEMPLATE_v0.1.md)
-provides the reusable record for completed candidate evaluations, including
-evidence states, impacts, gates, scores, risks, persistent findings, disposition,
-sign-off, and audit history.
+### Candidate Lifecycle
 
-## Governance Lifecycle
+[seller-candidate-lifecycle-v0.1.md](seller-candidate-lifecycle-v0.1.md) defines the official candidate states, transitions, authority requirements, re-evaluation conditions, and archival conditions.
 
-```text
-Opportunity discovery
-        |
-Xavier candidate dossier
-        |
-Seller intake review
-        |
-Evidence and relationship review
-        |
-Mandatory gates
-        |
-Scoring and risk treatment
-        |
-Seller disposition
-        |
-Seller Decision Report
-        |
-Dependency or human review where required
-```
+### Decision Reporting
 
-A Seller disposition governs only the next bounded commerce-review stage. It is
-not equivalent to a final offer, listing, user acceptance, payment, or
-fulfillment event.
+[SELLER_DECISION_REPORT_TEMPLATE_v0.1.md](SELLER_DECISION_REPORT_TEMPLATE_v0.1.md) provides the reusable governance record for evidence, freshness, relationships, impacts, gates, scores, risks, persistent findings, disposition, sign-off, and audit history.
 
-## Ecosystem Relationships
+### Archive Review
 
-### Seeker/Xavier
+[SELLER_ARCHIVE_RELEVANCE_REVIEW_v0.1.md](SELLER_ARCHIVE_RELEVANCE_REVIEW_v0.1.md) records governance concepts examined in local reference archives and the limits placed on their inheritance.
 
-Xavier owns discovery integrity, opportunity formation, source provenance, and
-discovery confidence. Zayne receives evidence-bearing candidates and independently
-determines commercial fitness.
+## Current Governance Maturity
 
-Xavier may recommend possibilities but may not promise approval, terms, listing,
-or commercial outcomes. Zayne may challenge or return discovery evidence but may
-not silently rewrite it.
+| Area | Current state |
+|---|---|
+| Seller identity and authority boundaries | Foundational draft established |
+| Seeker-to-Seller transfer governance | Foundational draft established |
+| Evaluation gates, scoring, and risk treatment | Foundational draft established |
+| Detailed review workflow | Foundational draft established |
+| Candidate lifecycle | Initial baseline established |
+| Decision report template | Foundational draft established |
+| Commerce foundations knowledge | Initial discovery record established |
+| Operational governance validation | In progress |
+| Cross-document terminology and precedence | Requires further stabilization |
+| Human and OpenClaw ratification | Not represented as complete |
+| Software implementation | Not started |
+| External commerce authority | Not granted |
 
-### Keeper/Caleb
+The repository currently contains a coherent governance foundation, but it should not be presented as a completed commerce system or fully ratified policy regime. The v0.1 artifacts remain subject to validation, controlled revision, authority review, and document consolidation.
 
-Keeper/Caleb owns authoritative operational, capacity, quality, support, and
-fulfillment feasibility determinations.
+## Current Direction
 
-Zayne may assess apparent feasibility and identify operational dependencies, but
-may not substitute a Seller score for Keeper/Caleb's determination.
+Current work is governance-oriented:
 
-### Nier
+1. Validate the review model through bounded candidate exercises.
+2. Preserve evidence, uncertainty, decisions, and lifecycle changes.
+3. Clarify cross-document terminology, precedence, and human-review triggers.
+4. Coordinate missing evidence with the accountable OpenClaw layers.
+5. Reassess candidates when evidence, authority, scope, or material conditions change.
+6. Expand commerce knowledge only where it strengthens governance boundaries.
+7. Submit material policy or authority changes to the appropriate OpenClaw or human review.
 
-Nier owns billing eligibility, financial constraints, payment state, settlement,
-and billing-specific controls.
+These directions describe governance work. They do not promise implementation, marketplace operation, or external commerce capability.
 
-Zayne governs the commercial meaning of a proposed transaction. Nier determines
-whether that proposal is financially actionable and whether any billing event
-has occurred.
+## Core Boundary
 
-### 2B
+Seller/Zayne does not operate commerce.
 
-2B is the Knowledge Layer and supplies approved facts, provenance, and claim
-support.
-
-Zayne depends on 2B when a candidate or offer requires authoritative knowledge,
-contested-fact resolution, or durable claim validation. Seller may identify a
-claim gap but may not manufacture the missing knowledge.
-
-### 9S
-
-9S is the Communications Layer and governs communication context, presentation
-constraints, and approved expression.
-
-Zayne supplies governed claims, terms, disclosures, and positioning boundaries.
-9S may present approved commerce content but may not expand the commercial
-promise or treat communication as user consent.
-
-### A2
-
-A2 is the User Interaction Layer and governs user-facing interaction, explicit
-intent, consent, and acceptance state.
-
-Zayne defines the governed commerce choice and its acceptance boundary. A2
-provides the interaction context and evidence of user intent. Attention,
-engagement, silence, or ambiguous language must not be treated as acceptance.
-
-## Current Roadmap
-
-The current roadmap is governance-oriented:
-
-1. Apply the v0.1 workflow to bounded candidate evaluations.
-2. Preserve completed Seller Decision Reports as auditable governance evidence.
-3. Coordinate missing-evidence and dependency requests with the accountable
-   OpenClaw layers.
-4. Reassess candidates when evidence, risks, authority, or material conditions
-   change.
-5. Review whether v0.1 gates, scoring anchors, and report fields remain effective
-   after operational governance use.
-6. Ratify or revise foundational assumptions through the appropriate human and
-   OpenClaw governance process.
-
-No roadmap item grants Seller/Zayne authority to implement, publish, communicate,
-charge, or fulfill an offer.
-
-## Governance Boundary
-
-Seller/Zayne may:
-
-- Accept, return, reject, defer, or escalate candidate intake.
-- Evaluate commercial fitness.
-- Require evidence, clarification, dependency review, or human sign-off.
-- Approve a candidate only for governed offer development when all requirements
-  are satisfied.
-- Preserve accountable decision records.
-
-Seller/Zayne may not:
-
-- Create unsupported facts or claims.
-- Approve its own governance exceptions.
-- Override another OpenClaw layer's authority.
-- Infer user consent.
-- Declare payment or settlement.
-- Treat a high score as permission to bypass a failed gate or unresolved critical
-  risk.
-- Convert a governance disposition into authority for external action.
-
+Seller/Zayne governs whether commerce relationships, claims, permissions, approvals, and ongoing participation are justified, supportable, appropriately bounded, and auditable.
