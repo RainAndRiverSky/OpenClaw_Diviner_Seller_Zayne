@@ -36,6 +36,9 @@ This workflow must be applied together with:
 - `SELLER_ARCHIVE_RELEVANCE_REVIEW_v0.1.md`
 - `SEEKER_TO_SELLER_OPPORTUNITY_CANDIDATE_GOVERNANCE_v0.1.md`
 - `SELLER_EVALUATION_STANDARD_v0.1.md`
+- `docs/governance/shared-foundations/ZAYNE_SHARED_FOUNDATIONS_ADOPTION_RECORD_v0.1.md`
+- `docs/governance/shared-foundations/ZAYNE_SHARED_FOUNDATIONS_INHERITANCE_MAP_v0.1.md`
+- `docs/governance/shared-foundations/ZAYNE_SHARED_FOUNDATIONS_EXCEPTION_REGISTER_v0.1.md`
 
 Where the documents address different matters:
 
@@ -46,12 +49,20 @@ Where the documents address different matters:
   risk treatment, and recommendation thresholds.
 - Seller Archive Relevance Review records the conceptual provenance and limits of
   selected inherited governance patterns.
+- Shared Foundations adoption records define inherited architecture,
+  classification, namespace, precedence, and exception-governance contracts
+  without replacing Seller/Zayne workflow authority.
 - This document governs the sequence, review controls, evidence states,
   decision formation, sign-off, and audit trail.
 
 This workflow may add review discipline but may not weaken a mandatory gate,
 approval minimum, authority boundary, rejection condition, or human-review
 requirement established by another governing document.
+
+Shared Foundations inheritance may support interpretation of classification,
+trust-boundary, namespace, precedence, and exception questions. It does not
+change candidate intake, mandatory gates, scoring, dispositions, lifecycle
+decisions, human-review requirements, or decision-record obligations.
 
 ## Governing Boundary
 

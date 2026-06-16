@@ -30,10 +30,19 @@ This standard must be applied together with:
 
 - `SELLER_IDENTITY_STABILIZATION_v0.1.md`
 - `SEEKER_TO_SELLER_OPPORTUNITY_CANDIDATE_GOVERNANCE_v0.1.md`
+- `docs/governance/shared-foundations/ZAYNE_SHARED_FOUNDATIONS_ADOPTION_RECORD_v0.1.md`
+- `docs/governance/shared-foundations/ZAYNE_SHARED_FOUNDATIONS_INHERITANCE_MAP_v0.1.md`
+- `docs/governance/shared-foundations/ZAYNE_SHARED_FOUNDATIONS_EXCEPTION_REGISTER_v0.1.md`
 
 The Seeker-to-Seller contract governs whether a candidate is eligible for
 transfer. This standard governs Seller/Zayne's independent commerce evaluation
 after intake.
+
+Shared Foundations inheritance may govern classification, trust-boundary,
+namespace, exception, and precedence interpretation around this standard. It
+does not replace this evaluation standard, change mandatory gates, modify
+scoring thresholds, create compatibility or compliance status, or authorize
+external commerce action.
 
 Seller/Zayne may not use a high score to:
 

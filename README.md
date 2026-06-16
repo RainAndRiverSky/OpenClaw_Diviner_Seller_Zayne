@@ -274,11 +274,42 @@ Seller/Zayne supplies bounded claims, terms, disclosures, and positioning. Commu
 
 Seller/Zayne defines the governed commerce choice and acceptance boundary. Attention, engagement, silence, and ambiguous language are not acceptance.
 
+## Shared Foundations Inheritance
+
+Seller/Zayne adopts OpenClaw Shared Foundations as a governance and
+compatibility layer using the Reference + Inheritance model.
+
+The Shared Foundations adoption records are under
+[`docs/governance/shared-foundations/`](docs/governance/shared-foundations/).
+They reference the canonical Shared Foundations repository rather than copying
+Foundation documents into this repository.
+
+Shared Foundations inheritance does not replace
+`SELLER_IDENTITY_STABILIZATION_v0.1.md`,
+`SELLER_COMMERCE_FOUNDATIONS_DISCOVERY_v0.1.md`,
+`SELLER_EVALUATION_STANDARD_v0.1.md`,
+`SELLER_REVIEW_WORKFLOW_v0.1.md`, `seller-candidate-lifecycle-v0.1.md`,
+`seller-review-workflow-v0.1.md`, or any Seller/Zayne decision, review,
+evaluation, lifecycle, or commerce governance artifact.
+
+Shared Foundations provides inherited contracts for architecture,
+classification, namespace isolation, requirement references, domain precedence,
+exception governance, identity structure, memory concepts, and recovery
+boundaries. Seller/Zayne remains authoritative for commerce governance,
+candidate evaluation, review workflows, lifecycle decisions, and decision
+records.
+
+This adoption does not grant runtime authority, create commerce operations,
+enable MCP or Obsidian, permit cross-steward data sharing, or establish
+Foundation-Compatible, Foundation-Compliant, certified, or compliance status.
+
 ## Repository Structure
 
 ```text
 OpenClaw_Diviner_Seller_Zayne/
 ├── README.md
+├── identity/
+│   └── ZAYNE_STEWARD_IDENTITY_v0.1.md
 ├── SELLER_IDENTITY_STABILIZATION_v0.1.md
 ├── SELLER_ARCHIVE_RELEVANCE_REVIEW_v0.1.md
 ├── SELLER_COMMERCE_FOUNDATIONS_DISCOVERY_v0.1.md
@@ -289,16 +320,27 @@ OpenClaw_Diviner_Seller_Zayne/
 ├── seller-candidate-lifecycle-v0.1.md
 ├── seller-review-workflow-v0.1.md
 └── docs/
+    ├── governance/
+    │   └── shared-foundations/
+    │       ├── ZAYNE_SHARED_FOUNDATIONS_ADOPTION_RECORD_v0.1.md
+    │       ├── ZAYNE_SHARED_FOUNDATIONS_INHERITANCE_MAP_v0.1.md
+    │       └── ZAYNE_SHARED_FOUNDATIONS_EXCEPTION_REGISTER_v0.1.md
     └── handoffs/
 ```
 
-Root documents contain the current governance and governance-knowledge artifacts. The handoff archive preserves historical context, checkpoints, and governance lineage.
+Root documents contain the current governance and governance-knowledge artifacts. The `identity/` and `docs/governance/shared-foundations/` records establish Zayne-owned Shared Foundations inheritance by reference only. The handoff archive preserves historical context, checkpoints, and governance lineage.
 
 ## Document Guide
 
 ### Identity and Authority
 
 [SELLER_IDENTITY_STABILIZATION_v0.1.md](SELLER_IDENTITY_STABILIZATION_v0.1.md) defines Seller/Zayne's mission, scope, responsibilities, dependencies, decision rights, and anti-goals.
+
+[identity/ZAYNE_STEWARD_IDENTITY_v0.1.md](identity/ZAYNE_STEWARD_IDENTITY_v0.1.md) maps Seller/Zayne to the Shared Foundations identity and namespace model without replacing the Seller identity charter.
+
+### Shared Foundations
+
+[docs/governance/shared-foundations/](docs/governance/shared-foundations/) contains Zayne-owned adoption, inheritance, and exception records for OpenClaw Shared Foundations. These records reference the canonical Shared Foundations repository without copying Foundation documents into this repository.
 
 ### Commerce Knowledge
 
@@ -341,6 +383,7 @@ Root documents contain the current governance and governance-knowledge artifacts
 | Candidate lifecycle | Initial baseline established |
 | Decision report template | Foundational draft established |
 | Commerce foundations knowledge | Initial discovery record established |
+| Shared Foundations adoption | Documented through Reference + Inheritance |
 | Operational governance validation | In progress |
 | Cross-document terminology and precedence | Requires further stabilization |
 | Human and OpenClaw ratification | Not represented as complete |
