@@ -58,7 +58,7 @@ mistake those general patterns for current Etsy, Printify, or platform policy.
 
 **Archive reviewed**
 
-`/Volumes/1T_Projects/To use with Open Claw/Agents`
+`<AGENT_SOURCE_ROOT>`
 
 This is a large collection containing role definitions, agent prompts,
 multi-agent handoff templates, product and sales frameworks, governance
@@ -156,7 +156,7 @@ which Seller/Zayne may accept, return, defer, decline, or escalate a candidate.
 
 **Archive reviewed**
 
-`/Volumes/1T_Projects/To use with Open Claw/codex-plugin-cc-main`
+`<CODEX_PLUGIN_SOURCE_ROOT>`
 
 Representative material included the read-only review model, adversarial review
 prompt, stop-review gate, and structured review-output contract.
@@ -210,7 +210,7 @@ defer, decline, or escalate decisions.
 
 **Archive reviewed**
 
-`/Volumes/1T_Projects/To use with Open Claw/GitNexus-main`
+`<GITNEXUS_SOURCE_ROOT>`
 
 Representative material included its architecture overview, guardrails,
 knowledge-graph model, impact-analysis skill, change detection, and escalation
@@ -275,7 +275,7 @@ or owner review.
 
 **Archive reviewed**
 
-`/Volumes/1T_Projects/To use with Open Claw/gitnexus-sandbox`
+`<GITNEXUS_SANDBOX_SOURCE_ROOT>`
 
 The folder contains a minimal README and a small generated GitNexus index for a
 one-file sandbox.
@@ -314,7 +314,7 @@ purpose.
 
 **Archive reviewed**
 
-`/Volumes/1T_Projects/To use with Open Claw/humanizer-main 2`
+`<HUMANIZER_SOURCE_ROOT>`
 
 The folder contains guidance for removing repetitive, inflated, vague,
 promotional, and recognizably machine-generated writing patterns.
@@ -362,7 +362,7 @@ material implications.
 
 **Archive reviewed**
 
-`/Volumes/1T_Projects/To use with Open Claw/OpenSpace-main`
+`<OPENSPACE_SOURCE_ROOT>`
 
 Representative material included skill discovery, quality monitoring,
 candidate lifecycle tracking, lineage, private/public visibility, confirmation
@@ -423,7 +423,7 @@ without human and OpenClaw approval.
 
 **Archive reviewed**
 
-`/Volumes/1T_Projects/To use with Open Claw/OpenWA-main`
+`<OPENWA_SOURCE_ROOT>`
 
 Representative material included its project overview, requirements,
 communication architecture, risk register, authorization concepts, audit

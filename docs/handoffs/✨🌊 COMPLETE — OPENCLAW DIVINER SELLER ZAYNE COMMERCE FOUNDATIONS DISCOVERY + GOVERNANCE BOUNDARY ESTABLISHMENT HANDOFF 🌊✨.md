@@ -39,7 +39,7 @@ This distinction became the foundation for all subsequent decisions during the s
 
 Repository investigated:
 
-/Volumes/1T_Projects/Commerce Repo/vendure-master
+<COMMERCE_SOURCE_ROOT>
 
 Repository identified as:
 
@@ -298,7 +298,7 @@ Repositories Referenced During Session
 
 Active Seller Repository
 
-/Volumes/1T_Projects/Projects/OpenClaw_Commerce_Seller_Bot
+<REPOSITORY_ROOT>
 
 GitHub:
 
@@ -308,7 +308,7 @@ OpenClaw_Diviner_Seller_Zayne
 
 Commerce Reference Repository
 
-/Volumes/1T_Projects/Commerce Repo/vendure-master
+<COMMERCE_SOURCE_ROOT>
 
 Purpose:
 
