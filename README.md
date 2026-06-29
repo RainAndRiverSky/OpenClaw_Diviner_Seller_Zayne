@@ -6,7 +6,7 @@
 
 **Repository type:** Governance and governance knowledge
 
-**Current status:** Foundational governance under validation
+**Current status:** Foundational governance validated — implementation deferred
 
 ## Overview
 
@@ -308,6 +308,7 @@ Foundation-Compatible, Foundation-Compliant, certified, or compliance status.
 ```text
 OpenClaw_Diviner_Seller_Zayne/
 ├── README.md
+├── LICENSE
 ├── identity/
 │   └── ZAYNE_STEWARD_IDENTITY_v0.1.md
 ├── SELLER_IDENTITY_STABILIZATION_v0.1.md
@@ -319,13 +320,15 @@ OpenClaw_Diviner_Seller_Zayne/
 ├── SELLER_DECISION_REPORT_TEMPLATE_v0.1.md
 ├── seller-candidate-lifecycle-v0.1.md
 ├── seller-review-workflow-v0.1.md
-└── docs/
-    ├── governance/
-    │   └── shared-foundations/
-    │       ├── ZAYNE_SHARED_FOUNDATIONS_ADOPTION_RECORD_v0.1.md
-    │       ├── ZAYNE_SHARED_FOUNDATIONS_INHERITANCE_MAP_v0.1.md
-    │       └── ZAYNE_SHARED_FOUNDATIONS_EXCEPTION_REGISTER_v0.1.md
-    └── handoffs/
+├── docs/
+│   ├── governance/
+│   │   └── shared-foundations/
+│   │       ├── ZAYNE_SHARED_FOUNDATIONS_ADOPTION_RECORD_v0.1.md
+│   │       ├── ZAYNE_SHARED_FOUNDATIONS_INHERITANCE_MAP_v0.1.md
+│   │       └── ZAYNE_SHARED_FOUNDATIONS_EXCEPTION_REGISTER_v0.1.md
+│   └── handoffs/
+└── evidence/
+    └── PORTABILITY-AUDIT-20260621/
 ```
 
 Root documents contain the current governance and governance-knowledge artifacts. The `identity/` and `docs/governance/shared-foundations/` records establish Zayne-owned Shared Foundations inheritance by reference only. The handoff archive preserves historical context, checkpoints, and governance lineage.
@@ -384,7 +387,7 @@ Root documents contain the current governance and governance-knowledge artifacts
 | Decision report template | Foundational draft established |
 | Commerce foundations knowledge | Initial discovery record established |
 | Shared Foundations adoption | Documented through Reference + Inheritance |
-| Operational governance validation | In progress |
+| Operational governance validation | Initial validation completed |
 | Cross-document terminology and precedence | Requires further stabilization |
 | Human and OpenClaw ratification | Not represented as complete |
 | Software implementation | Not started |
